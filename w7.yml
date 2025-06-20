@@ -4,7 +4,6 @@ services:
     container_name: windows
     environment:
       VERSION: "7u"
-      LANGUAGE: "Chinese"
       USERNAME: "MASTER"
       PASSWORD: "admin@123"
       RAM_SIZE: "4G"
