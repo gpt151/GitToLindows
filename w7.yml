@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "7"
+      VERSION: "7u"
       LANGUAGE: "Chinese"
       USERNAME: "MASTER"
       PASSWORD: "admin@123"
