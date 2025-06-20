@@ -1,1 +1,1 @@
-docker-compose -f w11.yml up
+docker-compose -f w7.yml up
