@@ -1,10 +1,12 @@
 # 在github跑windows!!!
 
-1. 主要思路就是通过 Github Codespaces功能创建一个 blank template 的 codespace，它是一个 Debian或Ubuntu 虚拟机，在这个虚拟机中可以执行 docker-compose -f 配置文件 up 创建一个 Win11 的容器，可以通过端口转发的链接（设置成 public）来访问。
+1. 主要思路就是通过 Github Codespaces功能创建一个 blank template 的 codespace，它是一个 Debian或Ubuntu 虚拟机，在这个虚拟机中可以执行 docker-compose -f 配置文件 up 创建一个 Windows 的容器，可以通过端口转发的链接（设置成 public）来访问。
 
-2. 在指令的"配置文件"可以换成w10.yml或者w11.yml，或者其他系统配置文件
+2. 一键启动默认是windows7系统
 
-3. 当然，也可以选择 Win11/win10 之外其他的操作系统或软件的容器。比如，搭建一个网站，一个笔记系统等。
+3. 在指令的"配置文件"可以换成w10.yml或者w11.yml，或者其他系统配置文件
+
+4. 当然，也可以选择 Win11/win10 之外其他的操作系统或软件的容器。比如，搭建一个网站，一个笔记系统等。
 
 # 开始教程(使用)
 1. 先登录你的github账号
