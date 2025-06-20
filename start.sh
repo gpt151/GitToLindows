@@ -1,0 +1,1 @@
+docker-compose -f w11.yml up
