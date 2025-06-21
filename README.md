@@ -24,6 +24,7 @@
 2. 并拉取本项目
 3. 然后点击绿色按钮(Code)
 4. 右边的Codepaces
+5. 可以点击这个一键跳转
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/MOMOTAG123/GitToLindows?quickstart=1)
 6. 然后点击下面的小加号(+)
 7. 等待进入(这个是进入linux环境)
