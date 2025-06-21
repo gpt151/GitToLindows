@@ -26,11 +26,11 @@
 12. 等待即可食用windows/linux
 
 # linux系统启动方法
-1, 部署好后，新建终端
+1. 部署好后，新建终端
 2. 输入bash start系统.sh
-比如：
-debian：bash startdeb.sh
-centos：startcen.sh
+- 比如：
+- debian：bash startdeb.sh
+- centos：startcen.sh
 
 # 支持的系统：
   
