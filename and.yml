@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  android-emulator:
+    image: budtmo/docker-android:emulator_11.0
+    container_name: android-container
+    environment:
+      - EMULATOR_DEVICE="Samsung Galaxy S10"
+      - WEB_VNC=true
+    ports:
+      - "6080:6080"  # noVNC网页访问端口
+      - "5554:5554"  # ADB控制端口（可选）
+      - "5555:5555"  # ADB连接端口（可选）
+    devices:
+      - "/dev/kvm:/dev/kvm"
+    privileged: true  # 如需额外权限可启用
+    restart: unless-stopped  # 自动重启策略
