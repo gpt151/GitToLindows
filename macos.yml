@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  macos:
+    image: sickcodes/docker-osx:auto
+    container_name: docker-osx-novnc
+    privileged: true
+    devices:
+      - /dev/kvm:/dev/kvm
+    environment:
+      - DISPLAY=:0
+      - VNC_PASSWORD=114514
+      - GENERATE_UNIQUE=true
+      - RAM=8  
+      - CPU=4 
+    ports:
+      - "5999:5999" 
+      - "50922:10022" 
+    volumes:
+      - ./macos_disk.img:/image 
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    restart: unless-stopped
+
+  novnc: 
+    image: linuxserver/novnc
+    ports:
+      - "6080:6080"
+    environment:
+      - VNC_CLIENT=macos:5999
+    depends_on:
+      - macos
