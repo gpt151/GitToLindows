@@ -25,6 +25,30 @@
 11. 恭喜你完成这次的操作了
 12. 等待即可食用windows/linux
 
+# 支持的系统
+  Select from the values below:
+  
+  | **Value** | **Version**            | **Size** |
+  |---|---|---|
+  | `11`   | Windows 11 Pro            | 5.4 GB   |
+  ||||
+  | `10`   | Windows 10 Pro            | 5.7 GB   |
+  ||||
+  | `8`   | Windows 8.1 Enterprise    | 3.7 GB   |
+  | `7`   | Windows 7 Ultimate        | 3.1 GB   |
+  | `vista`   | Windows Vista Ultimate    | 3.0 GB   |
+  | `xp`   | Windows XP Professional   | 0.6 GB   |
+  | `2000`   | Windows 2000 Professional | 0.4 GB   | 
+  ||||  
+  | `2022` | Windows Server 2022       | 4.7 GB   |
+  | `2019` | Windows Server 2019       | 5.3 GB   |
+  | `2016` | Windows Server 2016       | 6.5 GB   |
+  | `2012` | Windows Server 2012       | 4.3 GB   |
+  |||| 
+  | `debian` | debian       | 未知   |
+  | `centos` | centos       | 未知   |
+  | `macos` | macos       | 未知   |
+
 # 这么做的好处是：
 1. 获得免费的 VPS 虚拟机
 2. 这个 Windows/linux  容器规格比较大
