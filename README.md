@@ -1,8 +1,8 @@
 <h1 align="center">GitToLindows<br />
 <div align="center">
-<a href="https://github.com/dockur/windows"><img src="https://github.com/dockur/windows/raw/master/.github/logo.png" title="Logo" style="max-width:100%;" width="128" /></a>
-<a href="https://github.com/dockur/macos/"><img src="https://github.com/dockur/macos/raw/master/.github/logo.png" title="Logo" style="max-width:100%;" width="128" /></a>
-<img data-component="Avatar" class="Box-sc-g0xbh4-0 jqwbEP prc-Avatar-Avatar-ZRS-m" alt="linux" data-square="" width="24" height="24" src="https://raw.githubusercontent.com/github/explore/eb40fa94e4b686db568094600bb30065acce30c3/topics/linux/linux.png?size=48" data-testid="github-avatar" style="--avatarSize-regular: 24px;">
+<img src="https://github.com/dockur/windows/raw/master/.github/logo.png" title="Logo" style="max-width:100%;" width="128" />
+<img src="https://github.com/dockur/macos/raw/master/.github/logo.png" title="Logo" style="max-width:100%;" width="128" />
+<img src="https://raw.githubusercontent.com/github/explore/eb40fa94e4b686db568094600bb30065acce30c3/topics/linux/linux.png?size=48" title="Logo" style="max-width:100%;" width="128" />
 </div>
 
 # 禁止滥用，封了不能怪我
