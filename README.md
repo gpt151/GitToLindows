@@ -1,3 +1,6 @@
+# 禁止滥用，封了不能怪我
+
+
 # 在github跑windows/linux!!!
 
 1. 主要思路就是通过 Github Codespaces功能创建一个 blank template 的 codespace，它是一个 Debian或Ubuntu 虚拟机，在这个虚拟机中可以执行 docker-compose -f 配置文件 up 创建一个 Windows/linux 的容器，可以通过端口转发的链接（设置成 public）来访问。
