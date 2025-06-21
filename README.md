@@ -1,5 +1,10 @@
+<h1 align="center">GitToLindows<br />
+<div align="center">
 <a href="https://github.com/dockur/windows"><img src="https://github.com/dockur/windows/raw/master/.github/logo.png" title="Logo" style="max-width:100%;" width="128" /></a>
-# 禁止滥用，封了不能怪我
+</div>
+<div align="center">
+
+  # 禁止滥用，封了不能怪我
 
 
 # 在github跑windows/linux!!!
