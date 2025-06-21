@@ -46,7 +46,7 @@ docker-compose -f "配置文件" up
 
 # 支持的系统：
   
-  | **Value** | **Version**            | **Size** |
+  | **配置文件** | **系统/版本**            | **大小** |
   |---|---|---|
   | `w11.yml`   | Windows 11 Pro            | 5.4 GB   |
   ||||
