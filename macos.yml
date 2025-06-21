@@ -1,20 +1,15 @@
-version: '3.8'
-
 services:
   macos:
-    image: sickcodes/docker-osx:latest  # 使用确定的latest标签
-    container_name: docker-osx-novnc
-    privileged: true
-    devices:
-      - /dev/kvm:/dev/kvm
+    image: dockurr/macos
+    container_name: macos
     environment:
-      - DISPLAY=:0
-      - VNC_PASSWORD=114514
-      - GENERATE_UNIQUE=true
-      - RAM=8
-      - CPU=4
+      VERSION: "13"
+    devices:
+      - /dev/kvm
+    cap_add:
+      - NET_ADMIN
     ports:
-      - "5999:5999"
-    volumes:
-      - ./macos_disk.img:/image
-      - /tmp/.X11-unix:/tmp/.X11-unix
+      - 8006:8006
+      - 5900:5900/tcp
+      - 5900:5900/udp
+    stop_grace_period: 2m
