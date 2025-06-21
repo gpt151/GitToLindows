@@ -48,24 +48,24 @@ docker-compose -f "配置文件" up
   
   | **Value** | **Version**            | **Size** |
   |---|---|---|
-  | `11`   | Windows 11 Pro            | 5.4 GB   |
+  | `w11.yml`   | Windows 11 Pro            | 5.4 GB   |
   ||||
-  | `10`   | Windows 10 Pro            | 5.7 GB   |
+  | `w10.yml`   | Windows 10 Pro            | 5.7 GB   |
   ||||
-  | `8`   | Windows 8.1 Enterprise    | 3.7 GB   |
-  | `7`   | Windows 7 Ultimate        | 3.1 GB   |
-  | `vista`   | Windows Vista Ultimate    | 3.0 GB   |
-  | `xp`   | Windows XP Professional   | 0.6 GB   |
-  | `2000`   | Windows 2000 Professional | 0.4 GB   | 
+  | `w8.yml`   | Windows 8.1 Enterprise    | 3.7 GB   |
+  | `w7.yml`   | Windows 7 Ultimate        | 3.1 GB   |
+  | `wvista.yml`   | Windows Vista Ultimate    | 3.0 GB   |
+  | `wxp.yml`   | Windows XP Professional   | 0.6 GB   |
+  | `w2k.yml`   | Windows 2000 Professional | 0.4 GB   | 
   ||||  
-  | `2022` | Windows Server 2022       | 4.7 GB   |
-  | `2019` | Windows Server 2019       | 5.3 GB   |
-  | `2016` | Windows Server 2016       | 6.5 GB   |
-  | `2012` | Windows Server 2012       | 4.3 GB   |
+  | `w2022.yml` | Windows Server 2022       | 4.7 GB   |
+  | `w2019.yml` | Windows Server 2019       | 5.3 GB   |
+  | `w2016.yml` | Windows Server 2016       | 6.5 GB   |
+  | `w2012.yml` | Windows Server 2012       | 4.3 GB   |
   |||| 
-  | `debian` | debian       | 未知   |
-  | `centos` | centos       | 未知   |
-  | `macos` | macos       | 未知   |
+  | `debian.yml` | debian       | 未知   |
+  | `centos.yml` | centos       | 未知   |
+  | `macos.yml` | macos       | 未知   |
 
 # 这么做的好处是：
 1. 获得免费的 VPS 虚拟机
