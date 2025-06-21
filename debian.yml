@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  debian:
+    image: debian:bookworm-slim
+    container_name: my_debian
+    stdin_open: true 
+    tty: true 
+    command: sleep infinity
+    volumes:
+      - ./data:/data          
+    networks:
+      - debian-net
+
+networks:
+  debian-net:
+    driver: bridge
