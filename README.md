@@ -1,6 +1,6 @@
-# 在github跑windows!!!
+# 在github跑windows/linux!!!
 
-1. 主要思路就是通过 Github Codespaces功能创建一个 blank template 的 codespace，它是一个 Debian或Ubuntu 虚拟机，在这个虚拟机中可以执行 docker-compose -f 配置文件 up 创建一个 Windows 的容器，可以通过端口转发的链接（设置成 public）来访问。
+1. 主要思路就是通过 Github Codespaces功能创建一个 blank template 的 codespace，它是一个 Debian或Ubuntu 虚拟机，在这个虚拟机中可以执行 docker-compose -f 配置文件 up 创建一个 Windows/linux 的容器，可以通过端口转发的链接（设置成 public）来访问。
 
 2. 一键启动默认是windows7系统
 
@@ -20,11 +20,11 @@
 9. 然后等待，有个端口转发
 10. 点击8006端口对应的链接网址
 11. 恭喜你完成这次的操作了
-12. 等待即可食用windows
+12. 等待即可食用windows/linux
 
 # 这么做的好处是：
 1. 获得免费的 VPS 虚拟机
-2. 这个 Windows  容器规格比较大
+2. 这个 Windows/linux  容器规格比较大
 3. 没有臃肿的预置软件
 4. 网络访问没有限制
 5. 网速特别快
