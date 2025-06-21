@@ -25,8 +25,14 @@
 11. 恭喜你完成这次的操作了
 12. 等待即可食用windows/linux
 
-# 支持的系统
-  Select from the values below:
+# linux系统启动方法
+1, 部署好后，新建终端
+2. 输入bash start系统.sh
+比如：
+debian：bash startdeb.sh
+centos：startcen.sh
+
+# 支持的系统：
   
   | **Value** | **Version**            | **Size** |
   |---|---|---|
