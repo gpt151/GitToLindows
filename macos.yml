@@ -9,7 +9,7 @@ services:
       - /dev/kvm:/dev/kvm
     environment:
       - DISPLAY=:0
-      - VNC_PASSWORD=yourpassword
+      - VNC_PASSWORD=114514
       - GENERATE_UNIQUE=true
       - RAM=8
       - CPU=4
