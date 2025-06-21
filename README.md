@@ -30,7 +30,7 @@
 2. 输入bash start系统.sh
 - 比如：
 - debian：bash startdeb.sh
-- centos：startcen.sh
+- centos：bash startcen.sh
 
 # 支持的系统：
   
