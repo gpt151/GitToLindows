@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  centos-server:
+    image: centos:stream9
+    container_name: centos-ssh
+    command: /usr/sbin/init  # 支持systemd
+    privileged: true
+    volumes:
+      - ./data:/data
+    ports:
+      - "2222:22"
+    networks:
+      - centos-net
+
+networks:
+  centos-net:
+    driver: bridge
