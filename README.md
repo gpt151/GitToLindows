@@ -34,12 +34,15 @@ docker-compose -f "配置文件" up
 11. 恭喜你完成这次的操作了
 12. 等待即可食用windows/linux
 
-# linux系统启动方法
+# linux系统启动方法（连接）
 1. 部署好后，新建终端
 2. 输入bash start系统.sh
 - 比如：
 - debian：bash startdeb.sh
 - centos：bash startcen.sh
+
+# windows/macos如何连接
+- 只需要点端口找到特定的8006端口
 
 # 支持的系统：
   
